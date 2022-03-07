@@ -1,4 +1,4 @@
-package Desafio02;
+package DesafioCap1;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -10,14 +10,14 @@ public class Questao01 {
 	Scanner sc = new Scanner(System.in);
 	
 	ArrayList<Integer> numeros = new ArrayList<Integer>();
-	System.out.println("Informe uma quantidade ímpar de números para calcularmos a mediana: ");
+	System.out.println("Informe uma quantidade Ã­mpar de nÃºmeros para calcularmos a mediana: ");
 	
 	int y = 0;
 	
 	while (y == 0) {
 		int valor = sc.nextInt();
 		numeros.add(valor);
-		System.out.print("Deseja informar mais valores? Digite: 0 para Sim / 1 para Não ");  
+		System.out.print("Deseja informar mais valores? Digite: 0 para Sim / 1 para NÃ£o ");  
 		y = sc.nextInt();
 	}
 	
@@ -27,7 +27,7 @@ public class Questao01 {
 	int medianaIndex = (sizeUtil)/2;
 			
 
-	System.out.println("A mediana é o número: "  + numeros.get(medianaIndex));
+	System.out.println("A mediana Ã© o nÃºmero: "  + numeros.get(medianaIndex));
 	
 	sc.close();
 	}
