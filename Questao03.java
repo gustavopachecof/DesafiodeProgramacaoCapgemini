@@ -7,6 +7,8 @@ public class Questao03 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe uma frase: ");
 		String texto = sc.nextLine();
 		
 		String strSemEspacos = texto.replaceAll("\\s+","");
