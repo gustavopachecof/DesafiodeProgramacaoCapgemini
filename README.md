@@ -5,15 +5,15 @@ Repositório criado para armazenar os códigos criados para o desafio de program
 1ª questão)
 É preciso informar uma quantidade ímpar de números inteiros. 
 Ex.: 1 (enter) 
-tecle 0 para continuar inserindo outro número ou 1 para parar -> 0
+tecle 0 para continuar inserindo outro número ou 1 para parar -> 0 \
 2 (enter) 
-tecle 0 para continuar inserindo outro número ou 1 para parar -> 0
+tecle 0 para continuar inserindo outro número ou 1 para parar -> 0 \
 3 (enter) 
-tecle 0 para continuar inserindo outro número ou 1 para parar -> 0
+tecle 0 para continuar inserindo outro número ou 1 para parar -> 0 \
 4 (enter) 
-tecle 0 para continuar inserindo outro número ou 1 para parar -> 0
+tecle 0 para continuar inserindo outro número ou 1 para parar -> 0 \
 5 (enter)
-tecle 0 para continuar inserindo outro número ou 1 para parar -> 1
+tecle 0 para continuar inserindo outro número ou 1 para parar -> 1 \
 
 O algoritmo retornará a mediana.
 
