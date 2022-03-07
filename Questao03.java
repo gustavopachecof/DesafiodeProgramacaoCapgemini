@@ -1,4 +1,4 @@
-package Desafio1234;
+package DesafioCap3;
 
 import java.util.Scanner;
 
