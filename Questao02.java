@@ -1,4 +1,4 @@
-package Desafio022;
+package DesafioCap2;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Questao02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Informe 5 números inteiros: ");
+		System.out.println("Informe 5 nÃºmeros inteiros: ");
 
 		final int separador = 2;
 
@@ -33,7 +33,7 @@ public class Questao02 {
 			
 			}
 			
-			  System.out.printf("\nQuantidade de pares com diferença de 2: "+ cont);
+			  System.out.printf("\nQuantidade de pares com diferenÃ§a de 2: "+ cont);
 			 
 		sc.close();
 	}
