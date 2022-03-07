@@ -1,14 +1,17 @@
 package Desafio1234;
 
-public class Questao003 {
+import java.util.Scanner;
+
+public class Questao03 {
 
 	public static void main(String[] args) {
 
-String texto = "alessandra e bonita";
+		Scanner sc = new Scanner(System.in);
+		String texto = sc.nextLine();
 		
 		String strSemEspacos = texto.replaceAll("\\s+","");
 		int caracteresString = strSemEspacos.length();
-		System.out.println("\nQuantidade de caracteres da string informada sem os espaços: ");
+		System.out.println("\nQuantidade de caracteres da string informada sem os espaÃ§os: ");
 		System.out.println(caracteresString);
 		
 		double raizCaracteres = Math.sqrt(caracteresString);
@@ -43,7 +46,7 @@ String texto = "alessandra e bonita";
 		System.out.println(textoFinal);	
 		
 		
-	}
+		}
 
 	}
 
